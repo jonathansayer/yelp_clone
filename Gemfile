@@ -44,8 +44,10 @@ group :development, :test do
   gem 'spring'
 
 group :test do 
+  gem 'shoulda'
+
   gem 'rspec-rails'
-  
+
   gem 'capybara'
 end
 
